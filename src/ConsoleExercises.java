@@ -10,7 +10,7 @@ public class ConsoleExercises {
 //        scanner.useDelimiter("\t");//delimiter it with tab
 
         System.out.print("\n enter a integer:");
-        Integer userInput = scanner.nextInt();
+        int userInput = scanner.nextInt();
         System.out.println("you entered: --> \"" + userInput + "\"<--");
 
 //Prompt a user to enter 3 words, and store each of them in a separate variable. Then, display them back in the console, each on a newline.
