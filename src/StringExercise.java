@@ -36,28 +36,16 @@ public class StringExercise {
 //        System.out.println(myString.toUpperCase());
 //        System.out.println(myString.trim());//take off the front and end space
 //        System.out.println(Arrays.toString(myString.split(" ")));
-        System.out.println("We don't need no education") ;
-        System.out.println("We don't need no thought control");
-        System.out.println("Check \"this\" out!, \"s inside of \"s!");
-        System.out.println("In windows, the main drive is usually C:\\");
-        System.out.println("I can do backslashes \\, double backslashes \\\\,\n" +
-                "and the amazing triple backslash \\\\\\!");
+        String message = "We don't need no education\nWe don't need no thought control";
+        System.out.println(message) ;
+        message = "Check \"this\" out!, \"s inside of \"s!";
+        System.out.println(message);
+        message = "In windows, the main drive is usually C:\\";
+        System.out.println(message);
+        message = "I can do backslashes \\, double backslashes \\\\,\n" +
+                "and the amazing triple backslash \\\\\\!";
+        System.out.println(message);
 
+    }
 
-        Bob();
-    }
-        public static void Bob(){
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("start a conversation with Bob: ");
-            String conversation = scanner.nextLine();
-            if(conversation.endsWith("?")){
-                System.out.println("Sure");
-            } else if(conversation.endsWith("!")){
-                System.out.println("Whoa, chill out!");
-            } else if(conversation.equals("")){
-                System.out.println("Fine. Be that way!");
-            } else{
-                System.out.println("Whatever.");
-            }
-    }
 }
