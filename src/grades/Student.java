@@ -1,5 +1,6 @@
 package grades;
 
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -24,15 +25,9 @@ public class Student {
     public double getGradeAverage(){
         int sum = 0;
         for(int i = 0; i < grades.size();i++){
-            System.out.println(this.name + "'s grades : " + this.grades.indexOf(i));
+            System.out.println(this.grades.indexOf(i));
             sum += this.grades.indexOf(i);
         }
         return sum / this.grades.size();
     };
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("enter the name");
-
-
-    }
 }
